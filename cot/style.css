@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/cot/imagenes/macarons.jpg);
+    font-family: sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form{
+    background-color: rgba(230, 230, 230, 0.90);
+    width: 100%;
+    max-width: 100vh;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.8);
+    position: relative;
+
+}
+
+.form-title{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: rgba(0,0,0,0.8);
+}
+
+.form-input, .form-label, .form-submit{
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+.form-input{
+    padding: 20px;
+    background: rgba(72, 153, 135, 0.15);
+    border: 1px solid rgba(216, 20, 63, 0.37);
+    margin-bottom: 39px;
+    
+}
+
+.form-input:focus
+
+.form-label{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -30px;
+       color: rgba(0, 0, 0, 0.993);
+}
+.form-submit{
+    background: rgba(216, 20, 63, 0.801);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
