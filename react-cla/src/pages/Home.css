@@ -1,0 +1,53 @@
+
+.main{
+    width: 100%;
+    height: auto;
+}
+.container_subMain,
+.container_Description,
+.container_From,
+.container_Img
+{
+    
+display:inline-table;
+}
+.container_From{
+    width: 29%;
+    height: 290px;
+    background-color: green;
+}
+.container_link{
+    text-align: center;
+
+}
+.container_Description{
+    width: 63%;
+    height: 200px;
+    background-color: pink;
+}
+.Description{
+    position: relative;
+    top: 39px;
+    font-size: 15px;
+    line-height: 1.6em;
+    }
+.container_subMain{
+    width: 29%;
+    height: 250px;
+    text-align: center;
+    background-color: blueviolet;
+}
+.container_Img{
+    position: relative;
+    bottom: 91px;
+    width: 63%;
+    background-color: burlywood;
+}   
+.item-img{
+    display: inline-block;
+    width: 30%;
+    height: 290px;
+    margin: 15px 14px;  
+    background-color: aliceblue;
+    border: 1px solid black;
+}
